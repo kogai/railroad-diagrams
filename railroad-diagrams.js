@@ -925,7 +925,7 @@ At runtime, these constants can be found on the Diagram class.
 	These are the names that the internal classes are exported as.
 	If you would like different names, adjust them here.
 	*/
-	['Diagram', 'ComplexDiagram', 'Sequence', 'Stack', 'OptionalSequence', 'Choice', 'MultipleChoice', 'Optional', 'OneOrMore', 'ZeroOrMore', 'Terminal', 'NonTerminal', 'Comment', 'Skip']
+	['Diagram', 'ComplexDiagram', 'Sequence', 'Stack', 'OptionalSequence', 'Choice', 'MultipleChoice', 'Optional', 'OneOrMore', 'ZeroOrMore', 'Terminal', 'NonTerminal', 'Comment', 'Skip', "FakeSVG", "Path"]
 		.forEach(function(e,i) { root[e] = temp[i]; });
 }).call(this,
 	{

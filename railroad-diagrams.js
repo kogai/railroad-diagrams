@@ -920,7 +920,7 @@ At runtime, these constants can be found on the Diagram class.
 		root = this;
 	}
 
-	var temp = [Diagram, ComplexDiagram, Sequence, Stack, OptionalSequence, Choice, MultipleChoice, Optional, OneOrMore, ZeroOrMore, Terminal, NonTerminal, Comment, Skip];
+	var temp = [Diagram, ComplexDiagram, Sequence, Stack, OptionalSequence, Choice, MultipleChoice, Optional, OneOrMore, ZeroOrMore, Terminal, NonTerminal, Comment, Skip, FakeSVG, Path];
 	/*
 	These are the names that the internal classes are exported as.
 	If you would like different names, adjust them here.
